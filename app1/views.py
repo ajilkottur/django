@@ -10,7 +10,7 @@ def Myfun(request):
 
 def Home(request): 
     a=23
-    return render(request,'home.html',{'test':'Hello Django'})
+    return render(request,'home.html',{'test':'Ajil Django Project'})
 
 def Store(request):  
     return HttpResponse('store')
